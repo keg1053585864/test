@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "研学平台",
+  "usingComponents": {
+    "grace-dialog": "/graceUI/components/graceDialog",
+    "wm-poster": "/pages/component/wm-poster"
+  }
+}

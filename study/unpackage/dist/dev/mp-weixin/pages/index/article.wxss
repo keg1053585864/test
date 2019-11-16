@@ -1,0 +1,42 @@
+
+.tower-swiper .tower-item.data-v-5d73735a {
+	-webkit-transform: scale(calc(0.5 + var(--index) / 10));
+	    -ms-transform: scale(calc(0.5 + var(--index) / 10));
+	        transform: scale(calc(0.5 + var(--index) / 10));
+	margin-left: calc(var(--left) * 100rpx - 150rpx);
+	z-index: var(--index);
+}
+.swiper-item-date.data-v-5d73735a {
+	width: 100%
+}
+.swiper-item-title.data-v-5d73735a {
+	width: 50%;
+	margin: 13px auto 0 auto
+}
+.swiper-item-content.data-v-5d73735a {
+	width: 50%;
+	margin: auto
+}
+
+/* 机构列表 */
+.institution.data-v-5d73735a {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.institution-img-card ._img.data-v-5d73735a {
+	width: 150rpx;
+	height: 150rpx;
+}
+.institution-info.data-v-5d73735a {
+	width: 100%;
+}
+.institution-info .institution-detail .description.data-v-5d73735a {
+	width: 250rpx;
+	float: left
+}
+.institution-info .institution-detail .distance.data-v-5d73735a {
+	text-align: right;
+}
+

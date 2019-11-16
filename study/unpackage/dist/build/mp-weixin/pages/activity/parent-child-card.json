@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "善卷教育",
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "grace-dialog": "/graceUI/components/graceDialog",
+    "wm-poster": "/pages/component/wm-poster"
+  }
+}

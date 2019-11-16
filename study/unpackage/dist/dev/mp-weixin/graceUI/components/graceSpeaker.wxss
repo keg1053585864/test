@@ -1,0 +1,7 @@
+
+.grace-swiper-msg{width:100%; padding:10rpx 0; display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex; -webkit-flex-wrap:nowrap; -ms-flex-wrap:nowrap; flex-wrap:nowrap;}
+.grace-swiper-msg-icon{height:60rpx; line-height:60rpx; margin-right:16rpx; display:inline-block; -webkit-flex-shrink:0; -ms-flex-negative:0; flex-shrink:0;}
+.grace-swiper-msg swiper{width:100%; height:60rpx; overflow:hidden;}
+.grace-swiper-msg swiper-item{line-height:60rpx; height:60rpx; overflow:hidden;}
+.grace-swiper-msg navigator{line-height:60rpx; height:60rpx; overflow:hidden;}
+

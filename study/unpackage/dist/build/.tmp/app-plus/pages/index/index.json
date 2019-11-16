@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "研学平台",
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "grace-speaker": "/graceUI/components/graceSpeaker"
+  }
+}

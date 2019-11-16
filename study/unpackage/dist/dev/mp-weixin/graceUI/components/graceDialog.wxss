@@ -1,0 +1,21 @@
+
+@font-face {font-family:"gFont"; src:url('https://at.alicdn.com/t/font_1348600_ndhd2fow1h.ttf') format('truetype');}
+@-webkit-keyframes gdFadeIn{
+from { opacity: 0;
+}
+100% { opacity: 1;
+}}
+@keyframes gdFadeIn{
+from { opacity: 0;
+}
+100% { opacity: 1;
+}}
+.gdFadeIn {-webkit-animation:gdFadeIn 200ms linear;animation:gdFadeIn 200ms linear;}
+.grace-dialog-shade{position:fixed; width:100%; height:100%; left:0; top:0; z-index:9991; background:rgba(0, 0, 0, 0.5);}
+.grace-dialog-shade .dialog{width:85%; height:auto; background:#FFFFFF; position:absolute; top:50%; left:50%; -webkit-transform:translate(-50%, -50%); -ms-transform:translate(-50%, -50%); transform:translate(-50%, -50%); z-index:9992; border-radius:5px;}
+.grace-dialog-shade .title{line-height:100rpx; height:100rpx; font-size:30rpx; text-align:center;}
+.grace-dialog-shade .content{width:100%;}
+.grace-dialog-shade .close-btn{position:absolute; z-index:9993; right:0px; top:0px; font-size:26rpx; width:100rpx; height:100rpx; line-height:100rpx; text-align:center; font-family:"gFont";}
+.grace-dialog-shade .close-btn:before{content:"\E643";}
+.grace-dialog-shade .btns{width:100%;}
+

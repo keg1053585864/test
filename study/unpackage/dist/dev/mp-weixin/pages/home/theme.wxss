@@ -1,0 +1,98 @@
+
+.grace-tab-swiper {
+	height: 100%;
+	position: absolute;
+	margin-bottom: 50rpx;
+}
+.swiper2 image {}
+.grace-icons {
+	font-size: 12px !important
+}
+.grace-card-view {
+	border-radius: 10rpx;
+	padding: 0;
+	overflow: hidden
+}
+.grace-card-view image {
+	width: 100%;
+}
+.card-content {
+	margin: 0 20rpx;
+	width: auto;
+	padding-bottom: 10rpx
+}
+.grace-icons {
+	font-size: 24rpx !important
+}
+
+/* 机构列表 */
+.institution {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	
+	border-radius: 10rpx;
+	padding-bottom: 30rpx;
+	border-bottom: 1px solid #f3f4f6;
+}
+.institution-img-card ._img {
+	width: 150rpx;
+	height: 150rpx;
+	border-radius: 20rpx;
+}
+.institution-info {
+width: 100%;
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-webkit-flex-flow: column;
+    -ms-flex-flow: column;
+        flex-flow: column;
+-webkit-box-pack:justify;
+-webkit-justify-content:space-between;
+    -ms-flex-pack:justify;
+        justify-content:space-between
+}
+.institution-info .institution-detail .description {
+	width: 450rpx;
+	float: left
+}
+.description-text{
+	color: #7f7f7f;
+	padding: 3px 5px;
+	border: 1px solid #B2B2B2;
+	border-radius: 6rpx;
+}
+.distance{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.institution-info .institution-detail .distance {
+	text-align: right;
+}
+.footer {
+	margin-bottom: 14rpx
+}
+.bg-img-shadow{
+	height: 100% !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.1))) !important;
+	background-image: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) !important;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)) !important;
+}
+.bg-img-shadow-text{
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 4px;
+	line-height: 280rpx;
+}
+

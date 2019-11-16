@@ -1,0 +1,76 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/job",
+    "pages/component/search",
+    "pages/home/item",
+    "pages/home/pay-success",
+    "pages/activity/parent-child-card",
+    "pages/activity/component/pageList",
+    "pages/home/institution-normal",
+    "pages/home/institution-activity",
+    "pages/home/teacher",
+    "pages/home/location",
+    "pages/home/theme",
+    "pages/index/article",
+    "pages/article/content",
+    "pages/index/user",
+    "pages/user/order/record",
+    "pages/user/order/item-order-detail",
+    "pages/component/list",
+    "pages/component/form"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#8a8a8a",
+    "selectedColor": "#304156",
+    "list": [
+      {
+        "pagePath": "pages/index/article",
+        "iconPath": "static/eye.png",
+        "selectedIconPath": "static/eye_cur.png",
+        "text": "文章"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home_cur.png"
+      },
+      {
+        "pagePath": "pages/index/user",
+        "text": "我的",
+        "iconPath": "static/people.png",
+        "selectedIconPath": "static/people_cur.png"
+      }
+    ]
+  },
+  "devServer": {
+    "host": "test.zzwinchance.com",
+    "port": 80,
+    "proxy": {
+      "/api": {
+        "target": "http://127.0.0.1:3000",
+        "changeOrigin": true,
+        "ws": true,
+        "pathRewrite": {
+          "^/api": ""
+        }
+      }
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "位置信息将用于为您推荐附近商家/机构"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap92.json"
+}

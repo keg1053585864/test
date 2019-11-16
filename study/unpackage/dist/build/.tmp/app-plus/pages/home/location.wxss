@@ -1,0 +1,30 @@
+
+.grace-tab-swiper {
+	height: 100%;
+	position: absolute;
+	margin-bottom: 50rpx;
+}
+.swiper2 image {}
+.grace-icons {
+	font-size: 12px !important
+}
+.grace-card-view {
+	border-radius: 10rpx;
+	padding: 0;
+	overflow: hidden
+}
+.grace-card-view image {
+	width: 100%;
+}
+.card-content {
+	margin: 0 20rpx;
+	width: auto;
+	padding-bottom: 10rpx
+}
+.grace-icons {
+	font-size: 24rpx !important
+}
+.footer {
+	margin-bottom: 14rpx
+}
+

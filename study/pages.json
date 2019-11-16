@@ -1,0 +1,172 @@
+{
+"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+{
+"path": "pages/index/index",
+"style": {
+"navigationBarTitleText": "善卷教育",
+"onReachBottomDistance": 50
+}
+},
+{
+"path": "pages/index/job",
+"style": {
+"navigationBarTitleText": "善卷招聘求职",
+"onReachBottomDistance": 50
+}
+},
+{
+"path": "pages/component/search",
+"style": {
+"navigationBarTitleText": "善卷教育",
+"onReachBottomDistance": 50
+}
+},
+{
+"path": "pages/home/item",
+"style": {
+"navigationBarTitleText": "善卷教育"
+}
+},
+{
+"path": "pages/home/pay-success",
+"style": {
+"navigationBarTitleText": "善卷教育"
+}
+},
+{
+"path": "pages/activity/parent-child-card",
+"style": {
+"navigationBarTitleText": "善卷教育",
+"onReachBottomDistance": 100
+}
+},
+{
+"path": "pages/activity/component/pageList",
+"style": {
+"navigationBarTitleText": "善卷教育"
+}
+},
+{
+"path": "pages/home/institution-normal",
+"style": {
+"navigationBarTitleText": "善卷教育"
+}
+},
+{
+"path": "pages/home/institution-activity",
+"style": {
+"navigationBarTitleText": "善卷教育"
+}
+},
+{
+"path": "pages/home/teacher",
+"style": {
+"navigationBarTitleText": "教师详情"
+}
+},
+// {
+// 	"path": "pages/component/comment",
+// 	"style": {
+// 		"navigationBarTitleText": "善卷教育"
+// 	}
+// },
+{
+"path": "pages/home/location",
+"style": {
+"navigationBarTitleText": "善卷教育"
+}
+},
+{
+"path": "pages/home/theme",
+"style": {
+"navigationBarTitleText": "善卷教育"
+}
+},
+{
+"path": "pages/index/article",
+"style": {
+"navigationBarTitleText": "阅读·是精神的旅游"
+}
+},
+{
+"path": "pages/article/content",
+"style": {
+"navigationBarTitleText": "阅读·是精神的旅游"
+}
+},
+{
+"path": "pages/index/user",
+"style": {
+"navigationBarTitleText": "个人中心"
+}
+},
+{
+"path": "pages/user/order/record",
+"style": {
+"navigationBarTitleText": "个人中心"
+}
+},
+{
+"path": "pages/user/order/item-order-detail",
+"style": {
+"navigationBarTitleText": "订单详情"
+}
+},
+{
+"path": "pages/component/list",
+"style": {
+"navigationBarTitleText": "个人中心"
+}
+},
+{
+"path": "pages/component/form",
+"style": {
+"navigationBarTitleText": "个人信息"
+}
+}
+],
+"globalStyle": {
+"navigationBarTextStyle": "black",
+"navigationBarTitleText": "uni-app",
+"navigationBarBackgroundColor": "#F8F8F8",
+"backgroundColor": "#FFFFFF"
+},
+"tabBar": {
+"borderStyle": "white",
+"color": "#8a8a8a",
+// "selectedColor": "#39b54a",
+"selectedColor": "#304156",
+"list": [{
+"pagePath": "pages/index/article",
+"iconPath": "static/eye.png",
+"selectedIconPath": "static/eye_cur.png",
+"text": "文章"
+},
+// {
+// "pagePath": "pages/index/job",
+// "text": "招聘",
+// "iconPath": "static/earth.png",
+// "selectedIconPath": "static/earth_cur.png"
+// },
+{
+"pagePath": "pages/index/index",
+"text": "首页",
+"iconPath": "static/home.png",
+"selectedIconPath": "static/home_cur.png"
+// "selectedIconPath": "static/world_cur.png"
+},
+{
+"pagePath": "pages/index/user",
+"text": "我的",
+"iconPath": "static/people.png",
+"selectedIconPath": "static/people_cur.png"
+// "selectedIconPath": "static/about_cur.png"
+}
+]
+},
+"permission": {
+"scope.userLocation": {
+"desc": "你的位置信息将用于小程序位置接口的效果展示" // 高速公路行驶持续后台定位
+}
+}
+}

@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"ucenter-face { width: ",[0,120]," !important; height: ",[0,120]," !important; }\n.",[1],"ucenter-face wx-image { width: ",[0,120]," !important; height: ",[0,120]," !important; }\n.",[1],"ucenter-line { width: 100%; height: 10px; background: #F4F5F6; margin: 8px 0; }\n",],undefined,{path:"./pages/index/user.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/user.wxml') } }));
